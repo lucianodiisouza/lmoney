@@ -1,7 +1,12 @@
+import { GlobalStyle } from "./styles/global";
+import { Dashboard, Header } from "./components";
+
 export function App() {
   return (
-    <div className="App">
-      <p>Luciano</p>
-    </div>
+    <>
+      <Header />
+      <Dashboard />
+      <GlobalStyle />
+    </>
   );
 }
